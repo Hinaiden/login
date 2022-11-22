@@ -1,0 +1,57 @@
+.nav {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+
+.nav button {
+  width: 50px;
+  margin: 40px;
+  border-radius: 10px;
+  border: none;
+  background-color: lightblue;
+  color: white;
+  padding: 10px;
+}
+
+.center {
+  width: 600px;
+  padding-left: 10em;
+}
+
+.upper {
+  display: flex;
+}
+
+.upper p {
+  margin-right: 10px;
+  margin: 10px 0;
+}
+
+.title {
+  font-size: 30px;
+}
+
+.cross {
+  position: absolute;
+  right: 50px;
+  top: 50px;
+}
+
+.body input {
+  font-size: 20px;
+  width: 100%;
+  padding: 20px 0;
+  border: none;
+  border-bottom: 1px solid rgb(216, 213, 213);
+}
+
+.button {
+  margin: 30px 0;
+  padding: 15px;
+  border: none;
+  width: 440px;
+  color: white;
+  background: black;
+  border-radius: 10px;
+}
